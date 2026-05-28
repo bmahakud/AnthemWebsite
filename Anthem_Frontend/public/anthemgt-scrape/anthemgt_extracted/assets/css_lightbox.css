@@ -1,0 +1,100 @@
+#lightbox {
+	margin: 10px auto;
+	width:100%; 
+}
+
+#lightbox ul {
+	/*overflow: hidden;*/
+}
+/*Image styles*/
+#lightbox ul li{
+	float: left;
+	padding: 10px;
+	background: #fff;
+	margin: 10px 45px 20px 5px;
+	list-style-type: none;
+	position: relative;
+	cursor: pointer;
+	-moz-box-shadow:0px 0px 6px #d1d1d1;
+	-webkit-box-shadow:0px 0px 6px #d1d1d1;
+	box-shadow:0px 0px 6px #d1d1d1;
+}
+#lightbox ul li:last-child{
+	margin: 10px 45px 20px 5px;
+}
+
+#lightbox ul li img {
+	display: block;
+}
+
+/*Image titles*/
+#lightbox .image_title{
+	width: 200px; 
+	height: 100px;
+	background:#05a1fa;
+	position: absolute;
+	top: 0; left: 0;
+	display: table;
+	/*Hover effect - default state*/
+	opacity: 0;
+	transition: all 0.5s;
+}
+#lightbox .title{
+	color: #fff;
+	background: #05a1fa;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	/*Vertical center align*/
+	display: table-cell;
+	vertical-align: middle;
+	/*Hover effect - default state*/
+	transform: scale(0.2);
+	transition:all 0.5s;
+}
+/*Zoom icon over each title using iconfont and pseudo elements*/
+
+/*Hover states*/
+
+#lightbox li:hover .image_title {
+	opacity:1;
+}
+#lightbox li:hover .title {
+	transform: scale(1);
+}
+
+
+#lightbox .image_title1{
+	width: 200px; 
+	height: 100px;
+	
+	position: absolute;
+	top: 0; left: 0;
+	display: table;
+	/*Hover effect - default state*/
+	opacity: 0;
+	transition: all 0.5s;
+}
+#lightbox .title1{
+	color: #fff;
+	background:url(../Products/transparent-bg.png);
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	/*Vertical center align*/
+	display: table-cell;
+	vertical-align: middle;
+	/*Hover effect - default state*/
+	transform: scale(0.2);
+	transition:all 0.5s;
+}
+/*Zoom icon over each title using iconfont and pseudo elements*/
+
+/*Hover states*/
+
+#lightbox li:hover .image_title1 {
+	opacity:1;
+}
+#lightbox li:hover .title1 {
+	transform: scale(1);
+}

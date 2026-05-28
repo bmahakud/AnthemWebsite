@@ -1,0 +1,533 @@
+
+
+
+/*************************
+	-	CAPTIONS	-
+**************************/
+
+.tp-hide-revslider,.tp-caption.tp-hidden-caption	{	
+visibility:hidden !important; display:none !important;}
+
+.tp-caption { z-index:1;}
+.display_text{
+	width: 1000px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.tp-caption.big_white{
+			position: absolute;
+			text-shadow: none;
+			padding: 0px;
+			margin: 0px;
+			font-size: 30px;
+			font-family: 'Open Sans', sans;
+			font-weight: 600;
+			color: #333;
+			letter-spacing: 0px;
+			text-transform: uppercase;
+			line-height:32px;
+		}
+
+.tp-caption.large_text{
+			position: absolute;
+			text-shadow: none;
+			padding: 0px;
+			margin: 0px;
+			font-size: 60px;
+			font-family: 'Open Sans', sans;
+			font-weight: bold;
+			color: #333;
+			letter-spacing: 0px;
+			text-transform: uppercase;
+		}
+.tp-caption.large_text_two{
+			position: absolute;
+			text-shadow: none;
+			padding: 0px;
+			margin: 0px;
+			font-size:40px;
+			font-family: 'Open Sans', sans;
+			font-weight: bold;
+			color: #333;
+			letter-spacing: 0px;
+			line-height:48px;
+			text-transform: uppercase;
+		}
+.tp-caption.medium_grey{
+			position: absolute;
+			text-shadow: none;
+			padding: 0px;
+			margin: 0px;
+			font-size: 26px;
+			font-family: 'Open Sans', sans;
+			font-weight: 600;
+			color: #333;
+			letter-spacing: 0px;
+		}
+
+.tp-caption.small_text{
+			position: absolute;
+			color: #454545;
+			text-shadow: none;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 25px;
+			font-family: 'Open Sans', sans;;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
+		}
+
+.tp-caption.medium_text{
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 300;
+			font-size: 20px;
+			line-height: 18px;
+			font-family: 'Open Sans', sans;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+		}
+
+.tp-caption.very_large_text{
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: bold;
+			font-size: 50px;
+			line-height: 50px;
+			font-family: 'Open Sans', sans;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+			letter-spacing: 0px;
+		}
+.tp-caption.very_large_black_text{
+			position: absolute;
+			color: #000;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 72px;
+			line-height: 72px;
+			font-family: 'Open Sans', sans;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
+		}
+.tp-caption.bold_red_text{
+			position: absolute;
+			color: #d31e00;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 20px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
+		}
+.tp-caption.bold_brown_text{
+			position: absolute;
+			color: #a04606;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 20px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
+		}
+.tp-caption.bold_green_text{
+			position: absolute;
+			color: #5b9830;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 20px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
+		}
+
+.tp-caption.very_big_white{
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 36px;
+			line-height: 36px;
+			font-family: 'Open Sans', sans;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
+			padding: 3px 4px;
+			padding-top: 1px;
+			background-color:#7e8e96;
+					}
+
+.tp-caption.very_big_black{
+			position: absolute;
+			color: #000;
+			text-shadow: none;
+			font-weight: 700;
+			font-size: 50px;
+			line-height: 50px;
+			font-family: Arial;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
+			padding: 0px 4px;
+			padding-top: 1px;
+			background-color:#fff;
+					}
+
+.tp-caption.boxshadow{
+		-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+
+.tp-caption.black{
+		color: #000;
+		text-shadow: none;
+  font-weight: 300;
+			font-size: 19px;
+			line-height: 19px;
+			font-family: 'Open Sans', sans;
+	}
+
+.tp-caption.noshadow {
+		text-shadow: none;
+	}
+.tp_inner_padding	{	box-sizing:border-box;
+						-webkit-box-sizing:border-box;
+						-moz-box-sizing:border-box;
+						max-height:none !important;	}
+
+/******************************
+	-	BUTTONS	-
+*******************************/
+
+
+
+	@media only screen and (min-width: 767px) and (max-width: 999px) {
+		
+	.display_text{
+		width: 767px;
+		border: 0px;
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	}
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.display_text{
+			width: 478px;
+			border: 0px;
+			padding: 0px;
+			margin: 0px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		
+		.tp-caption .sright_icon { margin-top: 0px; float: left; }
+		
+					
+		.circle_one {
+		width: 70px;
+		height: 56px;
+		padding: 14px 0px 0px 0px;
+		font-size: 11px;
+		line-height: 13px;
+		}
+		.circle_two {
+		width: 40px;
+		height: 33px;
+		padding: 7px 0px 0px 0px;
+		font-size: 8px;
+		line-height: 9px;
+		}
+		.circle_three {
+		width: 22px;
+		height: 22px;
+		font-size: 6px;
+		line-height: 23px;
+		}
+		
+	}
+
+    @media only screen and (min-width: 0px) and (max-width: 479px) {
+		.display_text{
+			width: 300px;
+			border: 0px;
+			padding: 0px;
+			margin: 0px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		
+		.tp-caption .sright_icon { margin-top: 0px; float: left; }
+	}
+
+
+
+
+
+/*	BUTTON COLORS	*/
+
+
+
+.button.green, .button:hover.green,
+.purchase.green, .purchase:hover.green{ 
+	background-color:#21a117; 
+	-webkit-box-shadow:  0px 3px 0px 0px #104d0b;        
+	-moz-box-shadow:   0px 3px 0px 0px #104d0b;        
+	box-shadow:   0px 3px 0px 0px #104d0b;  
+}
+
+.button.blue, .button:hover.blue,
+.purchase.blue, .purchase:hover.blue{
+	background-color:#1d78cb; 
+	-webkit-box-shadow:  0px 3px 0px 0px #0f3e68;        
+	-moz-box-shadow:   0px 3px 0px 0px #0f3e68;        
+	box-shadow:   0px 3px 0px 0px #0f3e68;
+}
+
+
+.button.red, .button:hover.red,
+.purchase.red, .purchase:hover.red{ 
+background-color:#cb1d1d; 
+-webkit-box-shadow:  0px 3px 0px 0px #7c1212;        
+-moz-box-shadow:   0px 3px 0px 0px #7c1212;        
+box-shadow:   0px 3px 0px 0px #7c1212;
+}
+
+.button.orange, .button:hover.orange,
+.purchase.orange, .purchase:hover.orange		{ 
+	background-color:#ff7700; 
+	-webkit-box-shadow:  0px 3px 0px 0px #a34c00;        
+	-moz-box-shadow:   0px 3px 0px 0px #a34c00;       
+	 box-shadow:   0px 3px 0px 0px #a34c00;
+}
+
+.button.darkgrey,.button.grey,
+.button:hover.darkgrey,.button:hover.grey,
+.purchase.darkgrey, .purchase:hover.darkgrey	{ 
+background-color:#555; 
+-webkit-box-shadow:0px 3px 0px 0px #222;        
+-moz-box-shadow:   0px 3px 0px 0px #222;        
+box-shadow:   0px 3px 0px 0px #222;}
+
+.button.lightgrey, .button:hover.lightgrey,
+.purchase.lightgrey, .purchase:hover.lightgrey	{ 
+background-color:#888; 
+-webkit-box-shadow:  0px 3px 0px 0px #555;        
+-moz-box-shadow:   0px 3px 0px 0px #555;        
+box-shadow:   0px 3px 0px 0px #555;}
+
+
+
+/****************************************************************
+
+	-	SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID   -
+
+******************************************************************/
+
+.tp-simpleresponsive .slotholder *,
+.tp-simpleresponsive img			{ -webkit-transform: translateZ(0);
+										  -webkit-backface-visibility: hidden;
+										  -webkit-perspective: 1000;
+									}
+
+
+/************************************************
+	  - SOME CAPTION MODIFICATION AT START  -
+*************************************************/
+.tp-simpleresponsive .caption,
+.tp-simpleresponsive .tp-caption {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";	
+	-moz-opacity: 0;	
+	-khtml-opacity: 0;	
+	opacity: 0; 
+	position:absolute; 
+	visibility: hidden;
+
+}
+
+.tp-simpleresponsive img	{	max-width:none;}
+
+
+
+/******************************
+	-	IE8 HACKS	-
+*******************************/
+.noFilterClass {
+	filter:none !important;
+}
+
+
+/******************************
+	-	SHADOWS		-
+******************************/
+.tp-bannershadow  {
+		position:absolute;
+
+		margin-left:auto;
+		margin-right:auto;
+		-moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+	}
+
+.tp-bannershadow.tp-shadow1 {	background:url(../images/shadow1.png) no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
+.tp-bannershadow.tp-shadow2 {	background:url(../images/shadow2.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
+.tp-bannershadow.tp-shadow3 {	background:url(../images/shadow3.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
+
+
+/********************************
+	-	FULLSCREEN VIDEO	-
+*********************************/
+.caption.fullscreenvideo {	left:0px; top:0px; position:absolute;width:100%;height:100%;}
+.caption.fullscreenvideo iframe	{ width:100% !important; height:100% !important;}
+
+.tp-caption.fullscreenvideo {	left:0px; top:0px; position:absolute;width:100%;height:100%;}
+.tp-caption.fullscreenvideo iframe	{ width:100% !important; height:100% !important;}
+
+/************************
+	-	NAVIGATION	-
+*************************/
+
+
+/*************************************
+	-	TP ARROWS 	-
+**************************************/
+.tparrows	{	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+															-moz-opacity: 1;
+															-khtml-opacity: 1;
+															opacity: 1;
+															-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
+
+														}
+.tparrows.hidearrows									{
+															-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+															-moz-opacity: 0;
+															-khtml-opacity: 0;
+															opacity: 0;
+														}
+.tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../images/large_left.png) no-Repeat top left;	width:40px;	height:40px;   }
+.tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../images/large_right.png) no-Repeat top left;	width:39px;	height:46px;   }
+
+
+
+.tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/large_left.png) no-Repeat 0 0;	width:39px;	height:46px;
+
+														}
+.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/large_right.png) no-Repeat 0 0;	width:39px;	height:46px;
+
+														}
+
+.tp-leftarrow:hover,
+.tp-rightarrow:hover 									{	background-position:bottom left; }
+
+
+/****************************************************************************************************
+	-	TP THUMBS 	-
+*****************************************************************************************************
+
+ - tp-thumbs & tp-mask Width is the width of the basic Thumb Container (500px basic settings)
+
+ - .bullet width & height is the dimension of a simple Thumbnail (basic 100px x 50px)
+
+ *****************************************************************************************************/
+
+
+
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	 }
+
+
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+			.responsive .tp-bullets.tp-thumbs				{	width:300px !important; height:30px !important;}
+			.responsive .tp-bullets.tp-thumbs .tp-mask		{	width:300px !important; height:30px !important;}
+			.responsive .tp-bullets.tp-thumbs .bullet		{	width:60px !important;height:30px !important;}
+
+	}
+
+    @media only screen and (min-width: 0px) and (max-width: 479px) {
+				.responsive .tp-bullets	{	display:none}
+				.responsive .tparrows	{	display:none;}
+	}
+
+
+/*********************************************
+
+	-	BASIC SETTINGS FOR THE BANNER	-
+
+***********************************************/
+
+ .tp-simpleresponsive img {
+		-moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+
+.tp-simpleresponsive a{	text-decoration:none;}
+
+.tp-simpleresponsive ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.tp-simpleresponsive >ul >li{
+	list-stye:none;
+	position:absolute;
+	visibility:hidden;
+}
+/*  CAPTION SLIDELINK   **/
+.caption.slidelink a div,
+.tp-caption.slidelink a div {	width:10000px; height:10000px;  background:url(../images/coloredbg.png) repeat;}
+
+.tp-loader 	{	
+	background:url(../images/loader.gif) no-repeat 10px 10px; 
+	background-color:#fff;  
+	margin:-22px -22px; 
+	top:50%; 
+	left:50%; 
+	z-index:10000; 
+	position:absolute;
+	width:44px;
+	height:44px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.tp-transparentimg {	content:"url(../images/transparent.png)"}
+.tp-3d				{	-webkit-transform-style: preserve-3d;
+						 -webkit-transform-origin: 50% 50%;
+					}

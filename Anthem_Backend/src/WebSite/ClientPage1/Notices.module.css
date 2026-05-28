@@ -1,0 +1,99 @@
+.notices{
+}
+
+
+.searchbar {
+  margin-top: 100px;
+  margin-bottom: 34px;
+  width: 700px;
+  border: 1px solid var(--cardBorderColor);
+border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.serchIcon{
+  margin-left: 10px;
+  color: var(--lightText);
+}
+
+.searchInput {
+  width: 94%;
+  margin-right: 5px;
+  background-color: white;
+  height: 30px;
+  font-size: 14px;
+  font-size: 18px;
+  border: none;
+}
+
+
+.noticeTopTitle{
+
+
+font-size: 25px;
+font-weight: bold;
+
+ border-style:none;
+ margin: auto;
+ text-align: center;
+ height: 100px;
+}
+
+
+
+.noticeContainer{
+min-height: 400px;
+}
+
+
+.pageInfoDiv{
+
+margin: auto;
+text-align: center;
+}
+
+
+
+.nextPrevButton{
+
+padding: 5px;
+margin-left: 20px;
+margin-right: 20px;
+cursor: pointer;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+background-color: white;
+border-radius: 5px;
+color: grey;
+}
+
+.nextPrevButton:hover{
+background-color: lightgrey;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+  
+  .searchbar {
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
+
+
+

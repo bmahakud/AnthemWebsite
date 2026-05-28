@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+venv311/
+.env
+.env.*
+.env.local
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+build/
+package-lock.json
+npm-debug.log*
+.npm
+
